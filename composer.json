@@ -11,11 +11,19 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0"
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-jui": "dev-custom",
+        "almasaeed2010/adminlte": "~3.0"
     },
+	"repositories":[
+		{
+			"type": "git",
+			"url": "https://github.com/acmepy/yii2-jui.git"
+		}
+	],
     "autoload": {
         "psr-4": {
-            "acmepy\\yii2base\\": "src/"
+            "acmepy\\base\\": "src/"
         }
     }
 }

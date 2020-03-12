@@ -1,6 +1,6 @@
 <?php
 
-namespace acmepy\yii2base;
+namespace acmepy\base;
 
 /**
  * This is just an example.
