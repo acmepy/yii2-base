@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "acmepy\\yii2base\\": ""
+            "acmepy\\yii2base\\": "src/"
         }
     }
 }
